@@ -7,7 +7,7 @@
  */
 class Conexao extends PDO {
 
-    private $dsn = 'mysql:host=localhost;dbname=sysbook;charset=utf8';
+    private $dsn = 'mysql:host=localhost;dbname=teste;charset=utf8';
     private $user = 'root';
     private $password = '';
     private $options = array(
